@@ -37,7 +37,7 @@ else:
         print(f"OUTPUT {not (INP1 and INP2)}")
     
     elif Gate == "NOR":
-        print(f"OUTPUT  {not (INP1 or INP2)}")
+        print(f"OUTPUT {not INP1 or INP2}")
     
     elif Gate == "XOR":
         print(f"OUTPUT {INP1 ^ INP2}")
